@@ -2,16 +2,22 @@
 % Please edit documentation in R/coco.R
 \name{coco}
 \alias{coco}
-\title{coco}
+\title{coco
+#This is a function to test.}
 \usage{
 coco(a, b)
 }
 \arguments{
-\item{b}{}
+\item{FLOAT}{OR INTEGER > 0}
 }
 \value{
-
+FLOAT or INTEGER >0
 }
 \description{
 coco
+#This is a function to test.
+}
+\examples{
+coco(1,2)
+
 }

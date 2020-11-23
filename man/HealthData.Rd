@@ -3,14 +3,19 @@
 \docType{data}
 \name{HealthData}
 \alias{HealthData}
-\title{WORLD BANK DATA}
+\title{World Health Data}
 \format{
-An object of class \code{data.frame} with 259 rows and 69 columns.
+264 x 64 dataframe ...
+
+\describe{
+\item{index}{country Names}
+\item{column1}{literacy rates}
+}
 }
 \usage{
 HealthData
 }
 \description{
-WORLD BANK DATA
+World Health Data
 }
 \keyword{datasets}
