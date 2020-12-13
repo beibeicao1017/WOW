@@ -7,7 +7,7 @@
 Recursive_backtest(Df_ts, x, y, z)
 }
 \arguments{
-\item{Df_ts}{Any time series data.}
+\item{Df_ts}{Any time series data, however, before you use this function, you need to make sure the columns you want to forecast.}
 
 \item{x}{Numbers of forecast, x+y is equal to the total number of the time series.}
 

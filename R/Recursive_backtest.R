@@ -1,6 +1,6 @@
 #' Recursive_backtest
 #'
-#' @param Df_ts Any time series data.
+#' @param Df_ts Any time series data, however, before you use this function, you need to make sure the columns you want to forecast.
 #' @param x Numbers of forecast, x+y is equal to the total number of the time series.
 #' @param y The beginning of the selected estimation data.
 #' @param z How much steps you want to forecast (you need to take care that z+y+i cannot excess the total number of the time series )
